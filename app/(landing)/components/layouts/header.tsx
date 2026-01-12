@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HeaderSection = () => {
   return (
-    <header className="w-full bg-white h-fit px-17 py-3.75 flex justify-between">
+    <header className="w-full bg-white h-fit px-16 py-3.75 flex justify-between">
       <Image
         src={`/images/logo.svg`}
         alt="Logo Rapimprov"

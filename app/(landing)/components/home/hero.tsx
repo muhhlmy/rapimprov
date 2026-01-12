@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section
       id="heroSection"
-      className="min-h-screen bg-linear-to-t from-white to-primary/30 flex flex-col justify-center items-center gap-6"
+      className="h-fit flex flex-col justify-center items-center gap-6 py-52 bg-[url(/images/bg-hero.png)] bg-center bg-no-repeat bg-cover"
     >
       <Image
         src={`/images/logo-kadin.svg`}
@@ -13,7 +13,7 @@ const HeroSection = () => {
         width={160}
         height={157}
       />
-      <div className="font-bold flex flex-col justify-center items-center w-fit ">
+      <div className="font-bold flex flex-col justify-center items-center w-fit">
         <h1 className="text-5xl">RAPIMPROV</h1>
         <h2 className="text-3xl">KADIN</h2>
       </div>
