@@ -73,7 +73,7 @@ const RegistrationSection = () => {
                     src="/images/placeholder-2.jpg"
                     alt="Photo Preview"
                     width={250}
-                    height={250}
+                    height={50}
                     className="rounded-xl"
                   />
                   <Image
