@@ -45,7 +45,7 @@ const RegistrationSection = () => {
                     type="text"
                     name="kta"
                     placeholder="Masukkan Nomor KTA anda"
-                    className="text-[12px] px-3 w-full border border-slate-300 rounded-xl"
+                    className="text-[12px] px-3 w-full border border-slate-300 rounded-xl focus:outline-none"
                   />
 
                   <Button
@@ -106,7 +106,7 @@ const RegistrationSection = () => {
           </div>
         </div>
         {/* ================== Submit Button ================== */}
-        <div className="flex flex-col justify-center items-center gap-3 ">
+        <div className="flex flex-col justify-center items-center gap-3 py-9">
           <Button className="w-fit px-28!">Daftar Sekarang</Button>
           <p className="text-[12px] text-slate-500 gap-3">
             Mohon cek KTA terlebih dahulu sebelum menlanjutkan Pendaftaran
